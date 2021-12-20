@@ -3,6 +3,7 @@ dotfiles:
   - .github/*
   - .gitignore
   - .terraform.lock.hcl
+  - .editorconfig
 
 playlist:
   - main.tf

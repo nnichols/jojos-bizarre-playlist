@@ -79,3 +79,9 @@ Outputs:
 TODO: FIX ME
 playlist_url = "https://open.spotify.com/playlist/5LZFjKNIaQ3yqTzc1V2hjS"
 ```
+
+## License
+
+Copyright © 2021 - Nick A. Nichols
+
+This software is provided for free, public use as outlined in the [MIT License](https://github.com/Wall-Brew-Co/brew-bot/blob/master/LICENSE)
