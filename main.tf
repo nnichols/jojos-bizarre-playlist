@@ -17,6 +17,20 @@ resource "spotify_playlist" "playlist" {
   public      = true
 
   tracks = flatten([
-    data.spotify_search_track.jonathan_joestar.tracks[0].id
+    # Part 1: Phantom Blood
+    data.spotify_search_track.jonathan_joestar.tracks[0].id,
+    data.spotify_search_track.dio_brando.tracks[0].id,
+    data.spotify_search_track.erina_pendleton.tracks[0].id,
+    data.spotify_search_track.robert_eo_speedwagon.tracks[0].id,
+    data.spotify_search_track.william_zeppeli.tracks[0].id,
+    data.spotify_search_track.tonpetty.tracks[0].id,
+    data.spotify_search_track.dire_straizo.tracks[0].id,
+    data.spotify_search_track.poco.tracks[0].id,
+    data.spotify_search_track.wang_chan.tracks[0].id,
+    data.spotify_search_track.tarkus.tracks[0].id,
+    data.spotify_search_track.bruford.tracks[0].id,
+    data.spotify_search_track.plant_jones_page_bornnam.tracks[0].id,
+    data.spotify_search_track.jeff_back.tracks[0].id,
+    data.spotify_search_track.father_styx.tracks[0].id
   ])
 }

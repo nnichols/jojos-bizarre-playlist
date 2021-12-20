@@ -15,7 +15,9 @@ data "spotify_search_track" "dio_brando" {
 data "spotify_search_track" "erina_pendleton" {
   artist = "The Beatles"
   name   = "Eleanor Rigby"
-  # TODO: Comment
+  # Erina is a phonetic translation of Eleanor
+  # The song fits as a continuation of core Joestar family characters named after Beatles References
+  # Additionally, the song's theme fits with Erina's ultimate destiny as seen in Battle Tendency
 }
 
 data "spotify_search_track" "robert_eo_speedwagon" {
@@ -62,7 +64,7 @@ data "spotify_search_track" "wang_chan" {
 
 data "spotify_search_track" "tarkus" {
   artist = "Emerson, Lake & Palmer"
-  album = "Tarkus"
+  album  = "Tarkus"
   name   = "Battlefield"
   # Tarkus is a reference to the Album of the same name
   # Battlefield is a reference to his love of battle and battle alone
