@@ -20,27 +20,7 @@ jobs:
           github_token: ${{ secrets.github_token }}
           locale: "US"
           reporter: github-pr-review
-          exclude: "third_party/*"
           filter_mode: file
-
-  shellcheck:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: git checkout
-        uses: actions/checkout@v2.3.5
-        with:
-          ref: ${{ github.head_ref }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Shellcheck Files
-        uses: reviewdog/action-shellcheck@v1.9.0
-        with:
-          github_token: ${{ secrets.github_token }}
-          reporter: github-pr-check
-          filter_mode: file
-          exclude: "third_party/*"
-          pattern: "*.sh*"
 
   tflint:
     runs-on: ubuntu-latest
@@ -56,5 +36,5 @@ jobs:
         uses: reviewdog/action-tflint@v1.13.0
         with:
           github_token: ${{ secrets.github_token }}
-          reporter: github-pr-check
+          reporter: github-pr-review
           filter_mode: file
