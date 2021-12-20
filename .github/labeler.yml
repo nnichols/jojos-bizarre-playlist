@@ -1,0 +1,34 @@
+dotfiles:
+  - .github/**/*
+  - .github/*
+  - .gitignore
+  - .terraform.lock.hcl
+
+playlist:
+  - main.tf
+  - variables.tf
+  - outputs.tf
+
+phantom_blood:
+  - phantom-blood.tf
+
+battle_tendency:
+  - battle-tendency.tf
+
+stardust_crusaders:
+  - stardust-crusaders.tf
+
+diamond_is_unbreakable:
+  - diamond-is-unbreakable.tf
+
+vento_aureo:
+  - vento-aureo.tf
+
+stone_ocean:
+  - stone-ocean.tf
+
+steel_ball_run:
+  - steel-ball-run.tf
+
+jojolion:
+  - jojolion.tf
