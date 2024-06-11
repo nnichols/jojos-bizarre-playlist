@@ -94,6 +94,6 @@ playlist_url = "https://open.spotify.com/playlist/0vVK42c48lGpisE3kEIEvg"
 
 ## License
 
-Copyright © 2021-2022 - Nick A. Nichols
+Copyright © Nick A. Nichols
 
 This software is provided for free, public use as outlined in the [MIT License](https://github.com/Wall-Brew-Co/brew-bot/blob/master/LICENSE)

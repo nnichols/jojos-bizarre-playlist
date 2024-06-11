@@ -1,35 +1,43 @@
 dotfiles:
-  - .github/**/*
-  - .github/*
-  - .gitignore
-  - .terraform.lock.hcl
-  - .editorconfig
+  - changed-files:
+    - any-glob-to-any-file: ['.github/**/*', '.github/*', '.gitignore', '.terraform.lock.hcl', '.editorconfig']
 
 playlist:
-  - main.tf
-  - variables.tf
-  - outputs.tf
+  - changed-files:
+    - any-glob-to-any-file: ['main.tf', 'variables.tf', 'outputs.tf', 'phantom-blood.tf', 'battle-tendency.tf', 'stardust-crusaders.tf', 'diamond-is-unbreakable.tf', 'vento-aureo.tf', 'stone-ocean.tf', 'steel-ball-run.tf', 'jojolion.tf']
 
 phantom_blood:
-  - phantom-blood.tf
+  - changed-files:
+    - any-glob-to-any-file: ['phantom-blood.tf']
 
 battle_tendency:
-  - battle-tendency.tf
+  - changed-files:
+    - any-glob-to-any-file: ['battle-tendency.tf']
 
 stardust_crusaders:
-  - stardust-crusaders.tf
+  - changed-files:
+    - any-glob-to-any-file: ['stardust-crusaders.tf']
 
 diamond_is_unbreakable:
-  - diamond-is-unbreakable.tf
+  - changed-files:
+    - any-glob-to-any-file: ['diamond-is-unbreakable.tf']
 
 vento_aureo:
-  - vento-aureo.tf
+  - changed-files:
+    - any-glob-to-any-file: ['vento-aureo.tf']
 
 stone_ocean:
-  - stone-ocean.tf
+  - changed-files:
+    - any-glob-to-any-file: ['stone-ocean.tf']
 
 steel_ball_run:
-  - steel-ball-run.tf
+  - changed-files:
+    - any-glob-to-any-file: ['steel-ball-run.tf']
 
 jojolion:
-  - jojolion.tf
+  - changed-files:
+    - any-glob-to-any-file: ['jojolion.tf']
+
+the_jojo_lands:
+  - changed-files:
+    - any-glob-to-any-file: ['the-jojo-lands.tf']
