@@ -15,7 +15,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Spellcheck Files
-        uses: reviewdog/action-misspell@v1.25.0
+        uses: reviewdog/action-misspell@v1.26.1
         with:
           github_token: ${{ secrets.github_token }}
           locale: "US"
